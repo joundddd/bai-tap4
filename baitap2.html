@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bai 2</title>
+</head>
+<body>
+<script>
+let a = [1,2,3,4,5,0,1,2];
+let max = a[0];
+for (let i = 0; i < a.length; i++) {
+    if(max < a[i]){
+        max = a[i]-1
+    }
+}
+document.write('trong cac mang la: ' + a + '<br>');
+document.write('gia tri lon thu hai la: ' + max)
+</script>
+</body>
+</html>
